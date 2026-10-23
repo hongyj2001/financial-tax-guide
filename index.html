@@ -57,18 +57,18 @@
 
       // Calculator inputs state (in unit: 만 원 / Ten-thousand KRW)
       const [inputs, setInputs] = useState({
-        domStockGain: 1000,      // 국내주식 매매차익
-        domStockDiv: 150,        // 국내주식 배당금
-        overseasStockGain: 800,  // 해외주식 매매차익
-        overseasStockLoss: 200,  // 해외주식 매매차손
-        overseasStockDiv: 50,    // 해외주식 배당금
-        domListedUsEtfGain: 500, // 국내 상장 미국 ETF 매매차익
-        domListedUsEtfDiv: 100,  // 국내 상장 미국 ETF 분배금
-        domStockEtfGain: 300,    // 국내 주식형 ETF 매매차익
-        domStockEtfDiv: 50,      // 국내 주식형 ETF 분배금
-        domOtherEtfGain: 200,    // 국내 기타 ETF 매매차익
-        domOtherEtfDiv: 30,      // 국내 기타 ETF 분배금
-        krxGoldGain: 400,        // KRX 금현물 매매차익
+        domStockGain: 0,      // 국내주식 매매차익
+        domStockDiv: 0,        // 국내주식 배당금
+        overseasStockGain: 0,  // 해외주식 매매차익
+        overseasStockLoss: 0,  // 해외주식 매매차손
+        overseasStockDiv: 0,    // 해외주식 배당금
+        domListedUsEtfGain: 0, // 국내 상장 미국 ETF 매매차익
+        domListedUsEtfDiv: 0,  // 국내 상장 미국 ETF 분배금
+        domStockEtfGain: 0,    // 국내 주식형 ETF 매매차익
+        domStockEtfDiv: 0,      // 국내 주식형 ETF 분배금
+        domOtherEtfGain: 0,    // 국내 기타 ETF 매매차익
+        domOtherEtfDiv: 0,      // 국내 기타 ETF 분배금
+        krxGoldGain: 0,        // KRX 금현물 매매차익
       });
 
       // Recommender parameters
